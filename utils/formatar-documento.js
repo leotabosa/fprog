@@ -1,4 +1,5 @@
-function formatarDocumento({ cpf, cnpj }) {
+function formatarDocumento(dados) {
+  const { cpf, cnpj } = dados || {};
   if (!cpf && !cnpj) return null;
 
   // HIGH-ORDER FUNCTION

@@ -20,7 +20,9 @@ router.post("/validar-cpf", async function (req, res, next) {
     }
 
     if (!validarCpf(cpf)) {
-      throw new Error("CPF inválido");
+      console.log(`CPF ${cpf} inválido`);
+      res.status(400).json({ erro: "CPF inválido" });
+      return;
     }
 
     res.status(200).json({ cpf });

@@ -2,8 +2,8 @@
 
 ### Requisitos
 
-[Node.js](https://nodejs.org/en) - versão 20 ou superior
-npm ou [Yarn](https://yarnpkg.com/) - versão 1.22
+- [Node.js](https://nodejs.org/en) - versão 20 ou superior
+- npm ou [Yarn](https://yarnpkg.com/) - versão 1.22
 
 ### Funcionalidades
 

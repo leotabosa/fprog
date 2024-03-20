@@ -13,6 +13,18 @@
 4. Execução via linha de comando
 5. API para consumo das funcionalidades via endpoints
 
+### Execução dos testes + cobertura
+
+```bash
+yarn test:ci
+```
+
+```bash
+npm run test:ci
+```
+
+Após rodar os testes, a cobertura estará disponível no arquivo `coverage/lcov-report/index.html`. Basta abrir o arquivo no navegador para visualizar o relatório.
+
 ### Execução via linha de comando
 
 ##### Validação de CPF
